@@ -1,0 +1,18 @@
+{
+  "name": "fixed-id",
+  "version": "0.1.0",
+  "description": "This is a fixed-options export for NanoID using only 24 alphanumeric characters",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "nanoid",
+    "fixed",
+    "options",
+    "alphanumeric"
+  ],
+  "author": "Francisco Presencia <public@francisco.io>",
+  "license": "MIT",
+  "dependencies": {
+    "nanoid": "^3.1.20"
+  }
+}
