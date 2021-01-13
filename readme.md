@@ -1,18 +1,23 @@
 # Fixed ID
 
-This is a fixed-options implementation of [NanoID](https://github.com/ai/nanoid). There are two differences with the default NanoId:
+This is a implementation of [NanoID](https://github.com/ai/nanoid) with fixed options. These different options are:
 
-- Only alphanumeric. No underscores `_` nor dashes `-`. This makes it ultra-safe.
-- 24 characters instead of 21 to compensated for the loss of entropy it.
+- Only alphanumeric to make it ultra-safe in URLs/filenames/etc. No underscores `_` nor dashes `-`.
+- 24 characters instead of 21 to make it even safer.
 
-Usage:
+```
+npm install fixed-id
+```
 
 ```js
 import fixedId from "fixed-id";
+// const fixedId = require("fixed-id");
 
 console.log(fixedId());
 // sjBPT3hhUdCpP7rCDS4qu03Q
 // ilWz42q9iDp7b3ZlfoYg58e7
+// DBEDAytRL2M9uCGbxFfKzN4T
+// dFtijnQY8KhPphCOZ9aFWntD
 // ...
 ```
 
