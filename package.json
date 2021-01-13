@@ -1,7 +1,7 @@
 {
   "name": "fixed-id",
   "version": "0.1.0",
-  "description": "This is a fixed-options export for NanoID using only 24 alphanumeric characters",
+  "description": "A fixed-options export for NanoID using only 24 alphanumeric characters",
   "main": "index.js",
   "scripts": {},
   "keywords": [
