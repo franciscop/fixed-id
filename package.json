@@ -2,17 +2,28 @@
   "name": "fixed-id",
   "version": "1.0.0",
   "description": "A fixed-options export for NanoID using only 24 alphanumeric characters",
-  "main": "index.js",
-  "scripts": {},
+  "repository": "github:franciscop/fixed-id",
+  "author": "Francisco Presencia <public@francisco.io> (https://francisco.io/)",
+  "funding": "https://www.paypal.me/franciscopresencia/19",
+  "license": "MIT",
   "keywords": [
     "nanoid",
     "fixed",
     "options",
     "alphanumeric"
   ],
-  "author": "Francisco Presencia <public@francisco.io>",
-  "license": "MIT",
+  "scripts": {
+    "test": "bun test",
+    "lint": "oxlint index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "nanoid": "^3.1.20"
+  },
+  "devDependencies": {
+    "oxlint": "^1.89.0"
   }
 }

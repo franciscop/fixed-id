@@ -1,4 +1,4 @@
-# Fixed ID
+# Fixed ID [![npm install fixed-id](https://img.shields.io/badge/npm%20install-fixed--id-blue.svg)](https://www.npmjs.com/package/fixed-id) [![tests](https://github.com/franciscop/fixed-id/workflows/tests/badge.svg)](https://github.com/franciscop/fixed-id/actions) [![gzip size](https://img.badgesize.io/franciscop/fixed-id/master/index.js.svg?label=gzip&logo=&compression=gzip)](https://github.com/franciscop/fixed-id/blob/master/index.js)
 
 This is a implementation of [NanoID](https://github.com/ai/nanoid) with fixed options. These different options are:
 
