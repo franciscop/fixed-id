@@ -11,7 +11,7 @@ npm install fixed-id
 
 ```js
 import fixedId from "fixed-id";
-// const fixedId = require("fixed-id");
+// const fixedId = require("fixed-id").default;
 
 console.log(fixedId());
 // sjBPT3hhUdCpP7rCDS4qu03Q

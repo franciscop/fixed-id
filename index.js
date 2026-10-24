@@ -1,5 +1,5 @@
-const { customAlphabet } = require("nanoid");
+import { customAlphabet } from "nanoid";
 const alphabet =
   "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 const nanoid = customAlphabet(alphabet, 24);
-module.exports = nanoid;
+export default nanoid;
